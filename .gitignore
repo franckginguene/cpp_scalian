@@ -30,3 +30,4 @@
 *.exe
 *.out
 *.app
+/exercices/cmake_build
