@@ -1,9 +1,7 @@
 #include <iostream>
- 
-extern "C"
+#include <foo.h>
+
+void foo(void)
 {
-	__declspec(dllexport) void foo(void)
-	{
-	    std::cout << "Hello from lib foo!" << std::endl;
-	}
+    std::cout << "Hello from lib foo!" << std::endl;
 }
