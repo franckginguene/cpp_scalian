@@ -48,7 +48,6 @@
 #include <string_view>
 #include <charconv>
 #include <array>
-#include <vector>
 #include <deque>
 #include <list>
 #include <forward_list>

@@ -23,8 +23,6 @@
 #include <any>
 #include <optional>
 #include <variant>
-#include <compare>
-#include <version>
 #include <new>
 #include <memory>
 #include <scoped_allocator>
@@ -58,9 +56,7 @@
 #include <unordered_map>
 #include <stack>
 #include <queue>
-#include <span>
 #include <iterator>
-#include <ranges>
 #include <algorithm>
 #include <execution>
 #include <cmath>
@@ -70,8 +66,6 @@
 #include <numeric>
 #include <ratio>
 #include <cfenv>
-#include <bit>
-#include <numbers>
 #include <locale>
 #include <clocale>
 #include <codecvt>
