@@ -66,3 +66,5 @@ exercices/toolchain/src/testlink_visual_II/testlink_visual.sln
 exercices/toolchain/src/testlink_visual_II/testlink_visual.vcxproj
 exercices/toolchain/src/testlink_visual_II/testlink_visual.vcxproj.filters
 exercices/toolchain/src/testlink_visual_II/testlink_visual.vcxproj.user
+/exercices/toolchain/src/testlinkClass
+/exercices/toolchain/src/testlink_visual_II
