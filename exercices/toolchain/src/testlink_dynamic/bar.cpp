@@ -1,9 +1,7 @@
 #include <iostream>
+#include <bar.h>
  
-extern "C"
+void bar(void)
 {
-	__declspec(dllexport) void bar(void)
-	{
-	    std::cout << "Hello from lib bar!" << std::endl;
-	}
+    std::cout << "Hello from lib bar!" << std::endl;
 }

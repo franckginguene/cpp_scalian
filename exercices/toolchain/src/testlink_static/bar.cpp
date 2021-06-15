@@ -1,6 +1,6 @@
 #include <iostream>
  
-	void bar(void)
-	{
-	    std::cout << "Hello from lib bar!" << std::endl;
-	}
+void bar(void)
+{
+    std::cout << "Hello from lib bar!" << std::endl;
+}

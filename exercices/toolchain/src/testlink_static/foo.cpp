@@ -1,7 +1,7 @@
 #include <iostream>
  
 
-	void foo(void)
-	{
-	    std::cout << "Hello from lib foo!" << std::endl;
-	}
+void foo(void)
+{
+    std::cout << "Hello from lib foo!" << std::endl;
+}
