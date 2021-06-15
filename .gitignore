@@ -68,3 +68,6 @@ exercices/toolchain/src/testlink_visual_II/testlink_visual.vcxproj.filters
 exercices/toolchain/src/testlink_visual_II/testlink_visual.vcxproj.user
 /exercices/toolchain/src/testlinkClass
 /exercices/toolchain/src/testlink_visual_II
+exercices/precompiledHeader/qmake/headers.h.cpp
+diapos/~$CPP_Intro.pptx
+diapos/~$CPP_matin.pptx
