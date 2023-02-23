@@ -45,7 +45,7 @@ int main()
 	// Premier vrai exemple
 	//////////////////////////////////
 
-	// EXO 3 : remplacer l'appel de cette fonction par l'appel à une fonction lambda
+	// EXO 3.0 : remplacer l'appel de cette fonction par l'appel à une fonction lambda
 	printHeader("Exercice 3");
 	std::vector<int> vect = {1, 2, 3, 4};
 	dispAndAdd(vect);
@@ -61,6 +61,11 @@ int main()
 		return sum;
 	};
 	LambdaDispAndAdd(vect);
+
+	
+	// EXO 3.1 : remplacer l'appel de cette fonction par l'appel à un algorithme de la std pour réduire le vecteur (reduce)
+	// TODO
+	auto sum = std::reduce(vect.cbegin(), vect.cend());
 
 	// Block de capture
 	//////////////////////////////////

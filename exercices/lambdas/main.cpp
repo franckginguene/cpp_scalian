@@ -27,13 +27,13 @@ int main()
 {
 	// Fonction lambda élémentaire
 	//////////////////////////////////
-	// Quel est la syntaxe de la lambda élémentaire ?
+	// // EXO 1.0 : Quel est la syntaxe de la lambda élémentaire ?
 	// TODO
 	// On peut la mettre dans une variable puis l'appeler... mais il ne se passe évidemment rien.
 	//auto fonc = TODO;
 	//fonc();
 
-	// EXO 1 : Trouver le type de fonc avec l'aide de "typeid"
+	// EXO 1.1 : Trouver et afficher le type de fonc avec l'aide de "typeid"
 	printHeader("Exercice 1");
 	// TODO std::cout << ? << std::endl;
 
@@ -45,18 +45,20 @@ int main()
 	// Premier vrai exemple
 	//////////////////////////////////
 
-	// EXO 3 : remplacer l'appel de cette fonction par l'appel à une fonction lambda
+	// EXO 3.0 : remplacer l'appel de cette fonction par l'appel à une fonction lambda
 	printHeader("Exercice 3");
 	std::vector<int> vect = {1, 2, 3, 4};
 	dispAndAdd(vect);
 	// TODO
 	// ...
 	//LambdaDispAndAdd(vect);
+	// EXO 3.1 : remplacer l'appel de cette fonction par l'appel à un algorithme de la std ()
 
 	// Block de capture
 	//////////////////////////////////
 	printHeader("Exercice 4");
-	// Qu'affichent block ?
+	// Exécutez mentalement les block pour déduire les sorties
+	// Vérifiez ensuite vos réponses en décommantant le code
 	{
 		int a = 1;
 		auto addAndDisp_ref = [&a](int b)
