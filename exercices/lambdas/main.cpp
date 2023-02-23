@@ -52,7 +52,9 @@ int main()
 	// TODO
 	// ...
 	//LambdaDispAndAdd(vect);
-	// EXO 3.1 : remplacer l'appel de cette fonction par l'appel à un algorithme de la std ()
+	
+	// EXO 3.1 : remplacer l'appel de cette fonction par l'appel à un algorithme de la std pour réduire le vecteur (reduce)
+	// TODO
 
 	// Block de capture
 	//////////////////////////////////
