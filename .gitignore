@@ -71,3 +71,5 @@ exercices/toolchain/src/testlink_visual_II/testlink_visual.vcxproj.user
 exercices/precompiledHeader/qmake/headers.h.cpp
 diapos/~$CPP_Intro.pptx
 diapos/~$CPP_matin.pptx
+exercices/toolchain/src/helloworld/helloworld.asm
+exercices/toolchain/src/helloworld/helloworld.i
